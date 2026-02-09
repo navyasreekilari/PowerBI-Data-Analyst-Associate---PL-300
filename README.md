@@ -80,6 +80,58 @@ It helps users easily find and access various data sources within their organiza
 
 
 
+Use Copilot in Power BI to prepare and model data
+Prepare data in Power Query
+Use Powery query editor to profile, clean and transform your data:
+> Profile: Assess columm quality, distribution and profile
+> Clean: Address missing values, correct out of range or inconsistent entries and remove duplicates.
+> Transform: Rename columns, set correct data types and reshape tables as needed.
+
+Confiure a semantic model: Relationships allow you to filter and summarize data in report visuals later in the development process. You can use the autodetect relationships feature to get you started, then use Copilot to summarize the initial semantic model to determine if any other relationships are needed.
+
+Query with DAX:  In the DAX Query view, you can select Copilot in the ribbon and use natural language to describe what you want.
+
+Create reports with Copilot in Power BI: Copilot in Power BI helps you build interactive reports faster by turning your ideas into report elements with just a prompt. You can use suggested prompts or enter your own to create new report pages, suggest content, or answer specific data questions in the Copilot pane.
+<img width="507" height="540" alt="image" src="https://github.com/user-attachments/assets/ab23e4b2-f852-4155-9bcc-29359bb00c49" />
+
+Create reports in the Power BI service: When you create reports in Power BI Desktop and publish them, both the semantic model and the report are saved in your workspace. The semantic model contains your data, relationships, and measures, while the report is the visual layer you design.
+
+Copilot can also help create reports based on semantic models in the Power BI service. To get started, select the ellipsis (...) next to your semantic model and choose Create report.
+<img width="867" height="232" alt="image" src="https://github.com/user-attachments/assets/b4e66afe-7608-4894-a5cd-d7c80ccadc06" />
+
+Get your data ready for AI usage in Power BI
+Prepare your semantic model: Once you create your semantic model and report, you can use the Prep data for AI features to further curate the business user's experience. These features provide Copilot with the context it needs to reduce ambiguity and improve relevance and accuracy. These features are available in the Prep data for AI dialog box.
+
+Simplify the data schema: by removing unnecessary tables and columns, and using clear, descriptive names. For example, you might have objects necessary for your report that aren't relevant to business users, such as ID columns. IDs are essential for relationships, but Copilot doesn't need to use them when answering user questions.
+Verfied Answers: associate common business questions with specific visuals. For example, a visual for Total Opportunities by Sales Stage can answer many different questions for different users. When you create a verified answer, you can choose from suggested questions or create your own. When users ask that question in Copilot, your verified answer is included in the response.
+Prvide AI instructions: with key business context and domain-specific logic to Copilot to help tailor responses. AI instructions help clarify business terms, guide analysis approaches, and provide critical data context. Once saved, these instructions are used by Copilot to respond more intelligently to user prompts. For example, tell Copilot if your industry usually sees a spike in activity on the first Friday of each month, so Copilot understands this behavior and related terms in user chats.
+<img width="852" height="298" alt="image" src="https://github.com/user-attachments/assets/86819e6e-9429-44c6-950a-4c0954e395f4" />
+
+Test and mark the model: It's important to test your model to validate that you get expected results before marking the model as reviewed. Once you're confident that your schema is simplified, your verified answers are configured, and your AI instructions are updated, you can mark the semantic model as Prepped for AI. You can configure this property for the semantic model in the Power BI service.
+<img width="845" height="407" alt="image" src="https://github.com/user-attachments/assets/3c247559-35a8-4caf-a380-9b9c4c92194c" />
+
+Chat with your copilot: In Power BI service, users simply select Copilot to chat with the data, such as:
+
+Ask questions: Use everyday language to query your data, such as "What were our top sales regions last quarter?"
+Interpret answers: Copilot provides responses with supporting visuals and explanations of how it arrived at the answer.
+Summarize findings: Quickly generate summaries to share insights with others or inform decision-making.
+<img width="842" height="535" alt="image" src="https://github.com/user-attachments/assets/5623bbb2-bca6-405e-80e8-437417165121" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
