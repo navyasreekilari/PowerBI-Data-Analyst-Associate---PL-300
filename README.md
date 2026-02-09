@@ -118,6 +118,13 @@ Summarize findings: Quickly generate summaries to share insights with others or 
 <img width="842" height="535" alt="image" src="https://github.com/user-attachments/assets/5623bbb2-bca6-405e-80e8-437417165121" />
 
 
+Prepare data for Analysis with Power BI (Module 2)
+Get data from files: 
+
+
+
+
+
 
 
 
