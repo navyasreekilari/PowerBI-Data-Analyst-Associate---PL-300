@@ -119,7 +119,12 @@ Summarize findings: Quickly generate summaries to share insights with others or 
 
 
 Prepare data for Analysis with Power BI (Module 2)
-Get data from files: 
+Get data from files: You can get data form different type of files in Power BI (like JSON, Excel worksheet, SQL server, CSV, txt,...)
+Get data from relational data sources: Connecting Power BI to your database will help you to monitor the progress of your business and identify trends, so you can forecast sales figures, plan budgets and set performance indicators and targets. Power BI Desktop can connect to many relational databases that are either in the cloud or on-premises.
+
+Create dynamic reports with Parameters: Dynamic reports are reports in which the data can be changed by a developer according to user specifications. Dynamic reports are valuable because a single report can be used for multiple purposes. If you use dynamic reports, you'll have fewer individual reports to create, which will save organizational time and resources.
+
+
 
 
 
