@@ -134,6 +134,26 @@ They are 3 different types of storage modes we cna choose from:
 
 . Dual(composite mode): In this mode you can identify some data to be directly imported and other data that must be queried. Any table that is brought in to your report is a product of both Import and DirectQuery modes. Using the dual mode allows Power BI to choose the most efficient form of data retrieval.
 
+Fix Performance issues
+
+Optimize performance in Power Query: The performance in Power Query depends on the performance at the data source level. The variety of data sources that Power Query offers is wide, and the performance tuning techniques for each source are equally wide.Power Query takes advantage of good performance at the data source through a technique called Query Folding.
+
+Query Folding: Query folding is the process by which the transformations and edits that you make in Power Query Editor are simultaneously tracked as native queries, or simple Select SQL statements, while you're actively making transformations. The reason for implementing this process is to ensure that these transformations can take place in the original data source server and don't overwhelm Power BI computing resources. 
+You can use Power Query to load data into Power BI. Then use Power Query Editor to transform your data, such as renaming or deleting columns, appending, parsing, filtering, or grouping your data.
+
+Benefits of query folding: More efficiency in data refreshes and incremental refreshes, automatic compatibility with directquery and dual storage modes.
+
+Native queries aren't possible for the following transformations:
+> Adding and index column
+> Meging and appending columns of different tables with two different sources.
+> Changing the data type of a column
+
+Query diagnostics: Another tool that you can use to study query performance is query diagnostics. To access query diagnostics in Power Query Editor, go to Tools in the Home ribbon. When you're ready to begin transforming your data or making other edits in Power Query Editor, select Start Diagnostics in the Session Diagnostics section. When you're finished, make sure that you select Stop Diagnostics.
+
+Other techniques to optimize performace:
+> Process as much data as possible in the original data source
+> Use native SQL queires
+> Seperate date and time, if bound together.
 
 
 
