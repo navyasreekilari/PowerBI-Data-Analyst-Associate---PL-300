@@ -127,6 +127,7 @@ Create dynamic reports with Parameters: Dynamic reports are reports in which the
 Storage Mode
 
 They are 3 different types of storage modes we cna choose from:
+
 . Import: This mode allows you to create a local Power BI copy of your semantic models from your data source. We canuse all Power BI service feature with this storage mode, including Q&A and quick insights. Data refreshes can be scheduled or on-demand. Import mode is the default for creating new Power Bi reports.
 
 . DirectQuery: It is useful when you don't want to save local copies of your data because your data won't be cached. Using this model ensures that you're always viewing the most up-to-date data, and that all security requirements are satisfied. Additionally this mode is suited for when you have large semantic models to pull data from. Instead of slowing down performance by having to load large amounts of data into power bi, you can use DirectQuery to create a connection to the source, solving data latency issues as well.
