@@ -155,6 +155,23 @@ Other techniques to optimize performace:
 > Use native SQL queires
 > Seperate date and time, if bound together.
 
+CLean, transform, and load data in Power BI
+
+Shape the initial data:
+Power Quey editor in Power BI Desktop allows you to shape your imported data. You can accomplish actions such as renaming columns or tables, changing text to numbers, removing rows, setting the first row as headers, and much more.
+<img width="841" height="352" alt="image" src="https://github.com/user-attachments/assets/c69d5f49-8c5d-4778-8fea-309b658c5b10" />
+
+Get Started with PowerQuery Editor:
+> To start shaping your data, open Power Query Editor by selecting 'Transform data' optin on the Home tab of Power BU Desktop:
+<img width="860" height="251" alt="image" src="https://github.com/user-attachments/assets/d6f52636-c01c-483d-9472-c846e8309a39" />
+
+When you start working in Power Query Editor, all steps that you take to shape your data are recorded. Then, each time the query connects to the data source, it automatically applies your steps, so your data is always shaped the way that you sepcified. 
+
+You can Pivot or Unpivot columns in PowerQuery.
+
+
+
+
 
 
 
