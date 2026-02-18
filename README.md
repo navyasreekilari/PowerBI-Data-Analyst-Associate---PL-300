@@ -187,6 +187,30 @@ Use Advanced Editor to modify M code
 Each time you shape data in Power Query, you create a step in the Power Query process. Those steps can be reordered, deleted, and modified where it makes sense. Each cleaning step that you made was likely created by using the graphical interface, but Power Query uses the M language behind the scenes. The combined steps are available to read by using the Power Query Advanced Editor. The M language is always available to be read and modified directly.  It is not required that you use M code to take advantage of Power Query. You will rarely need to write M code, but it can still prove useful. Because each step in Power Query is written in M code, even if the UI created it for you, you can use those steps to learn M code and customize it to suit your needs.
 <img width="732" height="145" alt="image" src="https://github.com/user-attachments/assets/1a91cae7-88ad-48dd-815c-6a55298d23b4" />
 
+Power BI Model Fundamentals
+
+Data Model: A Power BI data model is a query-able data resource that’s optimized for analytics. Reports can query data models by using one of two analytic languages: Data Analysis Expressions (DAX) or Multidimensional Expressions (MDX). Power BI uses DAX, while paginated reports can use either DAX or MDX. The Analyze in Excel features uses MDX.
+
+Power BI dataset: You develop a Power BI model in Power BI Desktop, and once published to a workspace in the Power BI service, it’s then known as a dataset. A dataset is a Power BI artifact that’s a source of data for visualizations in Power BI reports and dashboards.
+
+Analytic query: Power BI reports and dashboards must query a dataset. When Power BI visualizes dataset data, it prepares and sends an analytic query. An analytic query produces a query result from a model that’s easy for a person to understand, especially when visualized.
+
+An analytic query has three phases that are executed in this order:
+
+. Filter: narrows down on a subset of the model data. Filter values aren't visible in the query result.
+. Group: divides query results into groups. Each group is also a filter, but unlike the filtering phase, group values are visible in the query result.
+. Summarize: producea a single value result. Typically, a report visual summarizes a numeric field by using an aggregrate fucntion. Aggregate fucntions include sum, count, minimum, maximum and others. 
+
+Tabular model: A Power BI model is a tabular model. A tabular model comprises one or more tables of columns. It can also include relationships, hierarchies and calculations.
+
+Star Schema design: Star schema design is a mature modeling approach widely adopted by relational data warehouses. It requires you to classify model tables as either dimension or fact.
+
+Table storage mode
+. Import: Queries retrieve data that is stored or cached in the model.
+. DirectQuery: Queries pass through to the data source.
+. Dual: Queries retrieve stored data or pass through to the data source. 
+
+
 
 
 
