@@ -170,6 +170,30 @@ When you start working in Power Query Editor, all steps that you take to shape y
 You can Pivot or Unpivot columns in PowerQuery.
 
 
+Profile data in Power BI
+
+Profiling data is about studying the nuances of the data: determining anomalies, examing and developing the underlying data structures, and querying data statistics such as row counts, value distributions, minimum and mazimum values, averages and so on. 
+
+Examine data sturctures: Before you begin examining the data in Power Query Editor, you should first learn about the underlying data structures that data is organized in. You can view current semantic model under the "Model" tab on Power BI desktop.
+
+Finding data anomalies and data statistics: We can find data anomalies by using the  'Colum distribution' feature. To understand data anomalies and statistics, select the 'Column distribution, column Quality and Column Profile ' options. 
+<img width="1439" height="390" alt="image" src="https://github.com/user-attachments/assets/1bf40e26-d434-4c3c-addf-c63ba0cda071" />
+
+Column distribution shows you the distribution of the data within the column and the counts of distinct and unique values, both of which can tell you details about the data counts. 
+Column profile gives you a more in-depth look into the statistics within the columns for the first 1,000 rows of data. This column provides several different values, including the count of rows, which is important when verifying whether the importing of your data was successful. 
+
+Use Advanced Editor to modify M code
+
+Each time you shape data in Power Query, you create a step in the Power Query process. Those steps can be reordered, deleted, and modified where it makes sense. Each cleaning step that you made was likely created by using the graphical interface, but Power Query uses the M language behind the scenes. The combined steps are available to read by using the Power Query Advanced Editor. The M language is always available to be read and modified directly.  It is not required that you use M code to take advantage of Power Query. You will rarely need to write M code, but it can still prove useful. Because each step in Power Query is written in M code, even if the UI created it for you, you can use those steps to learn M code and customize it to suit your needs.
+<img width="732" height="145" alt="image" src="https://github.com/user-attachments/assets/1a91cae7-88ad-48dd-815c-6a55298d23b4" />
+
+
+
+
+
+
+
+
 
 
 
